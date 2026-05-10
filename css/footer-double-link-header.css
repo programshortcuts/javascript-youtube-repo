@@ -3,11 +3,15 @@
     padding:0;
     box-sizing: border-box;
 }
+
+body{
+    overflow: hidden;
+}
 .page-wrapper main#mainContainer {
     height: 75vh;
-    margin: 0 2.5%;
+    margin: 0 ;
+    width: 100%;
     padding: 0 2.5%;
-    padding-left: 0;
     scrollbar-width: none;
     overflow: hidden;
     overflow-y: scroll;
@@ -79,7 +83,7 @@
         padding-top: 5%;
         height: 68vh;
         margin: 0;
-        margin-left: 4%;
+        /* margin-left: 4%; */
         padding-bottom: 5%;
     }
 }
